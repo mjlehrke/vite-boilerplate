@@ -42,6 +42,13 @@ const count = ref(0);
     </a>
     |
     <a
+      href="https://sass-lang.com/documentation/"
+      target="_blank"
+    >
+      SCSS Documentation
+    </a>
+    |
+    <a
       href="https://eslint.org/"
       target="_blank"
     >
@@ -61,8 +68,8 @@ const count = ref(0);
   </p>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 a {
-  color: #42b983;
+  color: $link-color;
 }
 </style>
