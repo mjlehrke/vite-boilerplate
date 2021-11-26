@@ -1,3 +1,4 @@
 {
-  "eslint.validate": ["javascript", "vue"]
+  "eslint.validate": ["javascript", "vue"],
+  "stylelint.validate": ["css", "scss", "postcss", "vue"]
 }

@@ -9,22 +9,22 @@ import HelloWorld from './components/HelloWorld.vue';
     alt="Vue logo"
     src="./assets/logo.png"
   >
-  <HelloWorld msg="Hello Vue 3 + Vite + SCSS + ESLint" />
+  <HelloWorld msg="Hello Vue 3 + Vite + SCSS + ESLint + Stylelint" />
 </template>
 
 <style lang="scss">
-@import './styles/index';
+@import "./styles/index";
 
 html {
   background-color: $background-color;
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: $font-color;
+  font-family: "Avenir", "Helvetica", "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: $font-color;
   margin-top: 60px;
+  text-align: center;
 }
 </style>

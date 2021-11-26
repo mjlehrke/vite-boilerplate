@@ -1,0 +1,12 @@
+{
+  "ignoreFiles": ["node_modules/"],
+  "extends": [
+    "stylelint-config-standard-scss", "stylelint-config-recommended-vue"
+  ],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "font-family-name-quotes": "always-unless-keyword",
+
+    "order/properties-alphabetical-order": true
+  }
+}

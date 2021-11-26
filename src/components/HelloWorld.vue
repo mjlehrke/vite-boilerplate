@@ -54,6 +54,13 @@ const count = ref(0);
     >
       ESLint Documentation
     </a>
+    |
+    <a
+      href="https://stylelint.io/"
+      target="_blank"
+    >
+      Stylelint Documentation
+    </a>
   </p>
 
   <button
