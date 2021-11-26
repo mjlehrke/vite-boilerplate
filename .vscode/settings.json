@@ -1,4 +1,28 @@
 {
   "eslint.validate": ["javascript", "vue"],
-  "stylelint.validate": ["css", "scss", "postcss", "vue"]
+  "stylelint.validate": ["css", "scss", "postcss", "vue"],
+  "css.validate": false,
+  "scss.validate": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[css]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false
+  },
+  "[scss]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false
+  },
+  "[vue]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  }
 }

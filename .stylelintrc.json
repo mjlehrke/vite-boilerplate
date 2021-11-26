@@ -1,7 +1,9 @@
 {
   "ignoreFiles": ["node_modules/"],
   "extends": [
-    "stylelint-config-standard-scss", "stylelint-config-recommended-vue"
+    "stylelint-config-standard-scss",
+    "stylelint-config-recommended-vue",
+    "stylelint-prettier/recommended"
   ],
   "plugins": ["stylelint-order"],
   "rules": {

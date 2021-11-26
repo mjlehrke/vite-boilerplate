@@ -14,16 +14,8 @@ html {
 }
 
 body {
-  font-family:
-    system-ui,
-    -apple-system,
-    "Segoe UI",
-    "Roboto",
-    "Helvetica",
-    "Arial",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji";
+  font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica',
+    'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   margin: 0;
 }
 
@@ -47,13 +39,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family:
-    "ui-monospace",
-    "SFMono-Regular",
-    "Consolas",
-    "Liberation Mono",
-    "Menlo",
-    monospace;
+  font-family: 'ui-monospace', 'SFMono-Regular', 'Consolas', 'Liberation Mono',
+    'Menlo', monospace;
   font-size: 1em;
 }
 
@@ -99,9 +86,9 @@ select {
 }
 
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   appearance: button;
 }
 
@@ -132,7 +119,7 @@ progress {
   height: auto;
 }
 
-[type="search"] {
+[type='search'] {
   appearance: textfield;
   outline-offset: -2px;
 }
