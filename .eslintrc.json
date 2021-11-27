@@ -20,5 +20,22 @@
       }
     }
   ],
-  "rules": { "unicorn/filename-case": "off" }
+  "rules": {
+    "unicorn/filename-case": "off",
+    "unicorn/import-style": "off",
+    "unicorn/prefer-node-protocol": "off",
+    "unicorn/prefer-module": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["@", "./src"],
+          ["@components", "./src/components"],
+          ["@styles", "./src/styles"]
+        ],
+        "extensions": [".js", ".jsx", ".vue"]
+      }
+    }
+  }
 }

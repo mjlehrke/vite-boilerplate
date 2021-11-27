@@ -1,5 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
+import { resolve } from 'path';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 
@@ -8,7 +9,14 @@ export default defineConfig({
   plugins: [vue()],
   css: {
     preprocessorOptions: {
-      scss: { additionalData: `@import './src/styles/global.scss';` },
+      scss: { additionalData: `@import '@/styles/global.scss';` },
+    },
+  },
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src'),
+      '@components': resolve(__dirname, 'src/components'),
+      '@styles': resolve(__dirname, 'src/styles'),
     },
   },
 });
