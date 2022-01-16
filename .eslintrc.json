@@ -34,7 +34,7 @@
           ["@components", "./src/components"],
           ["@styles", "./src/styles"]
         ],
-        "extensions": [".js", ".jsx", ".vue"]
+        "extensions": [".js", ".vue"]
       }
     }
   }
