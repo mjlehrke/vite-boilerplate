@@ -17,6 +17,7 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'),
       '@components': resolve(__dirname, 'src/components'),
       '@styles': resolve(__dirname, 'src/styles'),
+      '@views': resolve(__dirname, 'src/views'),
     },
   },
 });
