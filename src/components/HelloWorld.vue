@@ -1,9 +1,9 @@
 <script setup>
-import { ref } from 'vue';
+import { useCounterStore } from '@stores/counter';
 
 defineProps({ msg: { type: String, required: true } });
 
-const count = ref(0);
+const counter = useCounterStore();
 </script>
 
 <template>
@@ -19,9 +19,11 @@ const count = ref(0);
   <p>
     <a href="https://v3.vuejs.org/" target="_blank"> Vue 3 Documentation </a>
     |
-    <a href="https://next.router.vuejs.org/" target="_blank"
-      >vue-router Documentation</a
-    >
+    <a href="https://next.router.vuejs.org/" target="_blank">
+      vue-router Documentation
+    </a>
+    |
+    <a href="https://pinia.vuejs.org/" target="_blank"> Pinia Documentation </a>
     |
     <a href="https://vitejs.dev/guide/features.html" target="_blank">
       Vite Documentation
@@ -42,7 +44,9 @@ const count = ref(0);
     </a>
   </p>
 
-  <button type="button" @click="count++">count is: {{ count }}</button>
+  <button type="button" @click="counter.increment">
+    count is: {{ counter.count }}
+  </button>
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.

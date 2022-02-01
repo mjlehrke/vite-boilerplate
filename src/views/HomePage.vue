@@ -7,7 +7,7 @@ import HelloWorld from '@components/HelloWorld.vue';
 <template>
   <img alt="Vue logo" src="@/assets/logo.png" />
   <HelloWorld
-    msg="Hello Vue 3 + vue-router + Vite + SCSS + ESLint + Stylelint + Prettier"
+    msg="Hello Vue 3 + vue-router + Pinia + Vite + SCSS + ESLint + Stylelint + Prettier"
   />
   <router-link to="/about">About Page</router-link>
 </template>

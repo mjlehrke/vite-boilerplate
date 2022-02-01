@@ -25,5 +25,5 @@
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
   },
-  "cSpell.words": ["vite", "vitejs", "vuejs"]
+  "cSpell.words": ["pinia", "vite", "vitejs", "vuejs"]
 }

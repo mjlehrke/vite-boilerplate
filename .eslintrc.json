@@ -32,6 +32,7 @@
         "map": [
           ["@", "./src"],
           ["@components", "./src/components"],
+          ["@stores", "./src/stores"],
           ["@styles", "./src/styles"],
           ["@views", "./src/views"]
         ],
